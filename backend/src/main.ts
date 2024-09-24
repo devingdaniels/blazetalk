@@ -6,13 +6,22 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   // Enable CORS for the frontend
+  const allowedOrigins = [
+    'http://localhost:3010', // Local development URL
+    'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app', // Production URL
+  ];
+
   app.enableCors({
-    origin: [
-      'http://localhost:3010',
-      'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app/',
-    ],
-    credentials: true, // Allow credentials
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true, // Allow credentials (cookies, headers)
   });
+
   await app.listen(envs.PORT);
 }
 bootstrap().then(() => {
