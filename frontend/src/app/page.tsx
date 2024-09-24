@@ -7,7 +7,7 @@ const Home = () => {
 
   const handleClick = async () => {
     try {
-      const response = await fetch("http://localhost:8089");
+      const response = await fetch("https://realtalk-bfza.onrender.com");
       const data = await response.json();
       setMessage(data.message);
     } catch (error) {
