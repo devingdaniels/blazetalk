@@ -2,8 +2,8 @@
 
 import React from "react";
 
-const Home = () => {
-  const [message, setMessage] = React.useState("");
+const Home: React.FC = () => {
+  const [message, setMessage] = React.useState<string>("");
 
   const handleClick = async () => {
     try {
