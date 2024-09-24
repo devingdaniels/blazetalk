@@ -8,7 +8,7 @@ async function bootstrap() {
   // Enable CORS for the frontend
   const allowedOrigins = [
     'http://localhost:3010', // Local development URL
-    'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app',
+    'https://realtalk-l80ji4i1p-devingdaniels-projects.vercel.app',
     'https://realtalk-coral.vercel.app',
   ];
 
