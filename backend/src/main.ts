@@ -7,7 +7,10 @@ async function bootstrap() {
 
   // Enable CORS for the frontend
   app.enableCors({
-    origin: 'http://localhost:3010',
+    origin: [
+      'http://localhost:3010',
+      'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app/',
+    ],
     credentials: true, // Allow credentials
   });
   await app.listen(envs.PORT);
