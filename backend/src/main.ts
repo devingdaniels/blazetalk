@@ -4,6 +4,12 @@ import { envs } from './common/envs';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+
+  // Enable CORS for the frontend
+  app.enableCors({
+    origin: 'http://localhost:3010',
+    credentials: true, // Allow credentials
+  });
   await app.listen(envs.PORT);
 }
 bootstrap().then(() => {
