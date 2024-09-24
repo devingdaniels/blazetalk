@@ -52,7 +52,7 @@
 
 ### Sketch of the Dashboard Layout
 
-![Dashboard Sketch](sketch.png) `<!-- Ensure the image path is correct -->`
+![Dashboard Sketch](sketch.png)
 
 ---
 
@@ -109,9 +109,3 @@
 ## Contributing
 
 If you wish to contribute to RealTalk, please fork the repository and create a pull request. All contributions are welcome!
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
