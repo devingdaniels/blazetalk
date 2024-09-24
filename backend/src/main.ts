@@ -8,7 +8,8 @@ async function bootstrap() {
   // Enable CORS for the frontend
   const allowedOrigins = [
     'http://localhost:3010', // Local development URL
-    'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app', // Production URL
+    'https://realtalk-dx8o5d5ix-devingdaniels-projects.vercel.app',
+    'https://realtalk-coral.vercel.app',
   ];
 
   app.enableCors({
@@ -19,7 +20,7 @@ async function bootstrap() {
         callback(new Error('Not allowed by CORS'));
       }
     },
-    credentials: true, // Allow credentials (cookies, headers)
+    credentials: true,
   });
 
   await app.listen(envs.PORT);
