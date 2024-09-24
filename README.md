@@ -1,6 +1,3 @@
-Here's a structured `README.md` for your project "RealTalk":
-
-```markdown
 # RealTalk: Instant Messaging with Next.js, Nest.js, and Google Auth
 
 ## Product and Focus
@@ -55,7 +52,7 @@ Here's a structured `README.md` for your project "RealTalk":
 
 ### Sketch of the Dashboard Layout
 
-![Dashboard Sketch](sketch.png)
+![Dashboard Sketch](sketch.png) `<!-- Ensure the image path is correct -->`
 
 ---
 
@@ -118,6 +115,3 @@ If you wish to contribute to RealTalk, please fork the repository and create a p
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-```
-
-Feel free to customize or expand this `README.md` to fit your project's specific needs!
