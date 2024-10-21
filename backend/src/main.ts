@@ -9,6 +9,7 @@ async function bootstrap() {
   const allowedOrigins = [
     'http://localhost:3010', // Local development URL
     'https://realtalk-p1vm019ak-devingdaniels-projects.vercel.app', // Vercel deployment URL
+    'https://blazetalk-f7qvwe3m1-devingdaniels-projects.vercel.app/',
   ];
 
   app.enableCors({
