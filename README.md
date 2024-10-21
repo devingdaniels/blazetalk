@@ -1,8 +1,8 @@
-# RealTalk: Instant Messaging with Next.js, Nest.js, and Google Auth
+# BlazeTalk: Instant Messaging with Next.js, Nest.js, and Google Auth
 
 ## Product and Focus
 
-**Product:** RealTalk is a real-time messaging platform where users can communicate instantly through an intuitive user interface.
+**Product:** BlazeTalk is a real-time messaging platform where users can communicate instantly through an intuitive user interface.
 
 **Focus:** The platform emphasizes seamless user authentication via Google Auth, instant messaging facilitated by WebSockets with Socket.IO, and a modern user experience with Tailwind CSS.
 
@@ -36,10 +36,10 @@
 
 ### Domain Name Options (Available via NameCheap)
 
-- realtalkapp.xyz
-- realtalkapp.me
-- realtalkapp.pro
-- realtalkapp.online
+- blazetalkapp.xyz
+- blazetalkapp.me
+- blazetalkapp.pro
+- blazetalkapp.online
 
 ### Audience and User Flow
 
@@ -108,4 +108,4 @@
 
 ## Contributing
 
-If you wish to contribute to RealTalk, please fork the repository and create a pull request. All contributions are welcome!
+If you wish to contribute to BlazeTalk, please fork the repository and create a pull request. All contributions are welcome!

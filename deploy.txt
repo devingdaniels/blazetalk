@@ -1,4 +1,4 @@
 1. vercel --prod 
 2. add the vercel link to allowable origins in backend/main.ts
-3. cd realtalk/ && git add backend/main/ts && git commit -m "updated vercel link" && git push
+3. cd blazetalk/ && git add backend/main/ts && git commit -m "updated vercel link" && git push
 4. cd backend && npm run start:prod

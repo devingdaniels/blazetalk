@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "RealTalk",
+  title: "BlazeTalk",
   description: "Talk about real things",
 };
 
