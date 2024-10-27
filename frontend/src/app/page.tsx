@@ -2,12 +2,14 @@
 
 import React from "react";
 
+const URL = process.env.BACKEND_DEV_URL || "http://localhost:8500";
+
 const Home: React.FC = () => {
   const [message, setMessage] = React.useState<string>("");
 
   const handleClick = async () => {
     try {
-      const response = await fetch("https://realtalk-bfza.onrender.com");
+      const response = await fetch(URL);
       const data = await response.json();
       setMessage(data.message);
     } catch (error) {

@@ -4,6 +4,8 @@ import { envs } from './common/envs';
 import { WinstonModule } from 'nest-winston';
 import * as winston from 'winston';
 
+const PORT = envs.PORT;
+
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: WinstonModule.createLogger({
@@ -21,9 +23,9 @@ async function bootstrap() {
     methods: 'GET, POST, PUT, DELETE',
   });
 
-  await app.listen(envs.PORT);
+  await app.listen(PORT);
 }
 
 bootstrap().then(() => {
-  console.log('SUCCESSFULLY STARTED THE SERVER');
+  console.log(`SUCCESSFULLY STARTED THE SERVER ON PORT ${PORT}`);
 });
