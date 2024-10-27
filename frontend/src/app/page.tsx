@@ -17,10 +17,15 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <button onClick={handleClick} className="bg-blue-500 text-white p-2 rounded">
-        Test API
-      </button>
-      <h1>{message}</h1>
+      <div className="flex flex-col items-center justify-center h-screen">
+        <h1>{message}</h1>
+        <button onClick={handleClick} className="bg-blue-500 text-white p-2 rounded">
+          Test API
+        </button>
+        <button onClick={() => setMessage("")} className="bg-blue-500 text-white p-2 rounded">
+          Reset
+        </button>
+      </div>
     </>
   );
 };
