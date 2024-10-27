@@ -12,7 +12,6 @@ const Home: React.FC = () => {
       setMessage(data.message);
     } catch (error) {
       console.error("Error calling API:", error);
-      alert("Failed to call the API");
     }
   };
 
