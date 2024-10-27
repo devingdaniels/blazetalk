@@ -8,7 +8,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ```bash
 # Set node version
-nvm use 20.18.1
+nvm install 20.18.1
 
 # Install dependencies
 npm install
