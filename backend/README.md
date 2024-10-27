@@ -27,7 +27,7 @@
 
 ```bash
 # Set node version
-nvm use 20.18.1
+nvm install 20.18.0
 
 # Install dependencies
 npm install
