@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
+import "@radix-ui/themes/styles.css";
 
-const URL = process.env.NEXT_PUBLIC_BACKEND_DEV_URL || "http://localhost:8089";
+const URL = process.env.NEXT_PUBLIC_BACKEND_PROD_URL || "http://localhost:8089";
 
 const Home: React.FC = () => {
   const [message, setMessage] = React.useState<string>("");
